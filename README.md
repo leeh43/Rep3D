@@ -47,7 +47,7 @@ This is the official PyTorch implementation of our **ICML 2026** paper:
 ## Method Overview
 
 <p align="center">
-  <img src="assets/rep3d_overview.png" width="85%" alt="Rep3D Overview">
+  <img src="assets/idea_figure.png" width="85%" alt="Rep3D Overview">
 </p>
 
 **The core idea.** For a CSLA block combining a large kernel `W_L` and a small kernel `W_S` with scales `α_L`, `α_S`, the equivalent kernel `W' = α_L W_L + α_S W_S` receives spatially non-uniform gradient contributions. Because `W_S` only overlaps the central region of `W'`, the central elements receive gradient signal from *both* branches while the periphery receives signal only from `W_L`. This produces an effective element-wise learning-rate field:
