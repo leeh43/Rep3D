@@ -47,7 +47,7 @@ This is the official PyTorch implementation of our **ICML 2026** paper:
 ## Method Overview
 
 <p align="center">
-  <em>![alt text](image.png)</em><br>
+  <em>image.png</em><br>
   <code>&lt;img src="assets/rep3d_overview.png" width="85%"&gt;</code>
 </p>
 
